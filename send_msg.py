@@ -52,7 +52,7 @@ def emailtoany(sender,receiver):
     s.starttls()
   
 # Authentication
-    s.login(fromaddr, "task6done@")
+    s.login(fromaddr, "password")
   
 # Converts the Multipart msg into a string
     text = msg.as_string()
