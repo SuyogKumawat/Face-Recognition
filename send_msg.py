@@ -63,8 +63,6 @@ def emailtoany(sender,receiver):
 # terminating the session
     s.quit()
 
-#print(emailtoany("hrsample777@gmail.com","suyogkumawat1999@gmail.com"))
-
 
 def watsapptoany(mob_no,time_inhour,time_inmin):
     pywhatkit.sendwhatmsg(mob_no, 'Alert:Face Detected',time_inhour,time_inmin)
